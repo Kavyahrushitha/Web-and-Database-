@@ -1,0 +1,57 @@
+body
+{
+    background-color: lightgrey;
+}
+input
+{
+    color: rgb(199, 155, 219);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    background-color: blanchedalmond;
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+input.note
+{
+    color: rgb(240, 196, 234);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    background-color: lightseagreen;
+    font-weight: bolder;
+    text-align: center;
+}
+input.Signup 
+{
+    color: rgb(224, 163, 163);
+    font-family: monospace;
+    font-size: 20px;
+    font-style: italic;
+    background-color: lightsteelblue;
+    font-weight: bolder;
+    text-align: center;
+}
+label
+{
+    font-size: 40px;
+    font-style: normal;
+    height: 30px;
+    width: 500px;
+}
+input.button1
+{
+    background-color: #d37cbd; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}

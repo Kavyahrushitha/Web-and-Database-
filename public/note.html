@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+ <title>Notes Page</title>
+ <link href="style.css" rel="stylesheet">
+</head>
+<style type="text/css">
+body{
+  background-image: url("./images/kitten-playing-575035.jpg");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+</style>
+<body background="./images/kitten-playing-575035.jpg">
+  <header>
+    <nav>
+      <ul>
+        <li><a href="note.html">Notes</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a id="logout-btn">Logout</a></li>
+      </ul>
+    </nav>
+    <h1>Note Page</h1>
+  </header>
+  <form id="note-form" method="post">
+    <label id="addlabel" for="note">Add Note:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" id="note" name="note" placeholder="Enter your Notes" class="note"><br>
+    <br>
+    <input id="submit" type="button" onclick="takeNote()" value="ADD" class="button1">
+  </form>
+  <notes></notes>
+  <script src="./scripts/note.js"></script>
+  <script src="./scripts/script.js"></script>
+</body>
+</html>

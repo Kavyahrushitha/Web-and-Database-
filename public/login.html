@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+ <title>Login Page</title>
+ <link href="style.css" rel="stylesheet">
+</head>
+<style type="text/css">
+  body{
+    background-image: url("./images/login.jpeg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+  }
+  a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+  }
+
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  </style>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Sign Up</a></li>
+      </ul>
+    </nav>
+    <h1>Login Page</h1>
+  </header>
+  <main>
+<form method="post" id="login-form">
+  <label for="uname">Username/Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="text" id="uname" name="uname" placeholder="Enter your Email ID" class="Signup"><br>
+  <label for="password">Password:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="password" id="password" name="password" placeholder="Enter your password" class="Signup"><br>
+  <br>
+  <input type="button" value="Login" onclick="login()" class="button1">
+</form>
+<error></error>
+</main> 
+</body>
+<script src="./scripts/main.js"></script>
+<script src="./scripts/script.js"></script>
+</html>

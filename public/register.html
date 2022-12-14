@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+ <title>Register Page</title>
+ <link href="style.css" rel="stylesheet">
+</head>
+<style type="text/css">
+  body{
+    background-image: url("./images/register.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+  }
+  </style>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Sign Up</a></li>
+      </ul>
+    </nav>
+    <h1>Register Page</h1>
+  </header>
+  <script src="./scripts/main.js"></script>
+  <script src="./scripts/script.js"></script>
+  <form method="post" id="regsiter-form">
+    <label for="fname">First name:</label>&nbsp;&nbsp;&nbsp;&nbsp;   
+    <input type="text" id="fname" name="fname" placeholder="Enter your First Name"><br>
+    <label for="lname">Last name:</label>&nbsp;&nbsp;&nbsp;&nbsp;   
+    <input type="text" id="lname" name="lname" placeholder="Enter your Last Name"><br>
+    <label for="uname">Username/Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" id="uname" name="uname" placeholder="Enter your Email ID"><br>
+    <label for="password">Password:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="password" id="password" name="password" placeholder="Enter your password"><br>
+    <br>
+    <input type="button" onclick="userRegister()" value="Register" class="button1">
+  </form> 
+  <error></error>
+</body>
+</html>
